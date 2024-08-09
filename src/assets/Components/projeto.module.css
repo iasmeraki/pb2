@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+
+.Principal {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 24px;
+  
+  }
+
+.ContainerT {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color:#809edf ;
+    border-radius: 20px;
+    color: whitesmoke;
+    flex-direction: column;
+    width: 50rem;
+  
+  
+  }
+
+
+  .Txt {
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    width: 37.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgb(173, 160, 42);
+    border-radius: 10px;
+  
+  }
+
+  p{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 100px;
+    color: whitesmoke;
+  }
+
+  

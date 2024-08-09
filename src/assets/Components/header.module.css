@@ -1,0 +1,71 @@
+
+.header{
+    background-color:#6686ce ;
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:30px  ;
+    padding: 1rem;
+    border-radius: 70px;
+    margin-top: 20px;
+    border: 2px dashed whitesmoke;
+
+}
+
+
+.menu {
+
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10rem;
+
+}
+
+.imgHeader{
+
+    width: 6.25rem ;
+    height: 5.625rem ;
+    border-radius: 50%;
+
+}
+
+
+.neomorphbtn{
+
+    background-color: #38569c;
+    border-radius: 1.875rem ;
+    box-shadow: 0.4375rem 0.4375rem 0.9375rem #38569c , 
+    -0.4375rem -0.4375rem 0.9375rem #38569c;
+    color: whitesmoke;
+    font-size: 0.8125rem;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase; 
+    text-align: center;
+    transition: all 0.1s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px ;
+    margin: 0 10px ;
+
+
+}
+
+.neomorphbtn:hover{
+
+    box-shadow: inset 0.4375rem 0.4375rem 0.9375rem #6b89cf;
+    inset: -0.4375rem -0.4375rem 0.9375rem #ffffff;
+
+}
+
+.neomorphbtn:active{
+
+      box-shadow: 0.1875rem 0.1875rem 0.375rem #bebebe;
+      inset: -0.1875rem -0.1875rem 0.375rem #ffffff;
+      
+
+}

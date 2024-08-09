@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+
+    /* Marrons */
+    --brown--500: #9E6849;
+    --brown--400: #A78A6C;
+    --brown--300: #BB8644;
+    --broen--200: #B98459;
+    --brown--100: #713E22;
+    --brown--900: #4A2414;
+
+   /* Roxos */
+   --roxo--900: #3e005c;
+   --roxo--800: #772d94;
+   --roxo--700:  #b15bcc;
+    --roxo--600:  #9d08c2;
+    --roxo--500:  #c04ddd;
+    --roxo--400:  #d067e6;
+    --roxo--300:  #e080ee;
+    --roxo--200: #ef9af7;
+    --roxo--100: #ffb3ff;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--roxo--700);
+    background-color:  #b4cdff;
+    
+
+}
+
+img{
+  
+     height: 12.5rem;
+     width: 10.625rem;
+
+}
